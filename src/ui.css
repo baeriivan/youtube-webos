@@ -113,3 +113,15 @@
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.8);
 }
+
+/* Broken screen workaround */
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+body {
+  transform: scaleX(0.78);
+  transform-origin: left center;
+}
